@@ -1,6 +1,9 @@
 {
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "config.*.example.js": "config.*.example.js"
+    "tsconfig.json": "tsconfig.json,tsconfig.*.json",
+    "package.json": "pnpm-lock.yaml,pnpm-workspace.yaml",
+    ".prettierrc": ".prettierrc,.prettierignore",
+    "eslint.config.ts": "eslint.config.ts,.eslintignore",
   }
 }

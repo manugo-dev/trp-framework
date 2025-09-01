@@ -1,3 +1,3 @@
-on('onClientResourceStart', (resourceName: string) => {
-  console.log('Client resource started:', resourceName);
+on("onClientResourceStart", (resourceName: string) => {
+	console.log("Client resource started:", resourceName);
 });

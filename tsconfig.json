@@ -1,12 +1,12 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.client.json" },
-    { "path": "./tsconfig.server.json" },
-    { "path": "./tsconfig.nui.json" },
-    { "path": "./tsconfig.shared.json" }
-  ],
-  "compilerOptions": {
-    "composite": true
-  }
+	"files": [],
+	"references": [
+		{ "path": "./tsconfig.client.json" },
+		{ "path": "./tsconfig.server.json" },
+		{ "path": "./tsconfig.nui.json" },
+		{ "path": "./tsconfig.shared.json" }
+	],
+	"compilerOptions": {
+		"composite": true
+	}
 }

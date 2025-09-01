@@ -5,6 +5,7 @@ node_modules/
 # Archivos de build y distribución
 dist/
 build/
+!tools/build
 coverage/
 
 # Archivos de configuración del sistema

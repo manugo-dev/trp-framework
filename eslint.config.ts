@@ -4,10 +4,10 @@ import {
 	vueTsConfigs,
 } from "@vue/eslint-config-typescript";
 import pluginVue from "eslint-plugin-vue";
-import pluginVitest from "@vitest/eslint-plugin";
-import skipFormatting from "@vue/eslint-config-prettier/skip-formatting";
 import { standardTypeChecked } from "@vue/eslint-config-standard-with-typescript";
 import tseslint from "typescript-eslint";
+import js from "@eslint/js";
+import globals from "globals";
 
 const vueRules = defineConfigWithVueTs(
 	pluginVue.configs["flat/essential"],
@@ -25,5 +25,17 @@ export default defineConfig([
 	{
 		files: ["**/*.{ts}"],
 		...tseslint.configs.recommended,
+	},
+	{
+		files: ["**/*.{js,mjs,cjs}"],
+		languageOptions: {
+			globals: {
+				...globals.node,
+			},
+		},
+		plugins: {
+			js,
+		},
+		extends: ["js/recommended"],
 	},
 ]);

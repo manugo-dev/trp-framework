@@ -1,4 +1,4 @@
-import { App } from "@trp/nui";
+import { App } from "@trp/nui/vue";
 import Button from "./Button.vue";
 import Input from "./Input.vue";
 

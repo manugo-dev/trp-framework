@@ -8,7 +8,9 @@
 		"forceConsistentCasingInFileNames": true,
 		"baseUrl": ".",
 		"paths": {
-			"@trp/*": ["./packages/*/src"]
+			"@trp/*": ["./packages/*/src"],
+			"@trp/nui": ["./packages/nui"],
+			"@trp/nui/*": ["./packages/nui/*"]
 		}
 	},
 	"exclude": ["node_modules", "dist", "**/*.spec.ts", "**/*.test.ts"]

@@ -1,4 +1,5 @@
-import { computed, defineStore, ref } from "@trp/nui";
+import { defineStore } from "@trp/nui/pinia";
+import { computed, ref } from "@trp/nui/vue";
 
 export const usePlayerStore = defineStore("player", () => {
 	const playerData = ref<object | null>(null);

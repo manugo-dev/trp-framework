@@ -1,0 +1,9 @@
+{
+  "name": "@trp/date",
+  "version": "1.0.0",
+  "description": "Date utilities for TRP Framework",
+  "main": "dist/index.js",
+  "dependencies": {
+    "dayjs": "^1.11.18"
+  }
+}

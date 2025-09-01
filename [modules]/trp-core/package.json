@@ -1,0 +1,10 @@
+{
+  "name": "rpjs-core",
+  "version": "1.0.0",
+  "dependencies": {
+    "@trp/date": "workspace:*",
+    "@trp/db": "workspace:*",
+    "@trp/config": "workspace:*",
+    "zod": "^3.25.76"
+  }
+}

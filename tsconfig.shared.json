@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "types": [],
+    "paths": {
+      "@/types": ["packages/types/index.ts"],
+      "@/types/*": ["packages/types/*"]
+    }
+  },
+  "include": [
+    "framework/core/shared/**/*",
+    "framework/bridge/shared/**/*",
+    "framework/modules/*/shared/**/*",
+    "packages/types/**/*"
+  ],
+  "exclude": ["**/client/**", "**/server/**", "**/nui/**", "node_modules"]
+}

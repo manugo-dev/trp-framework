@@ -1,0 +1,28 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["vite/client"],
+    "jsx": "preserve",
+    "paths": {
+      "@/nui": ["packages/nui/index.ts"],
+      "@/nui/*": ["packages/nui/*"],
+      "@/types": ["packages/types/index.ts"],
+      "@/types/*": ["packages/types/*"]
+    }
+  },
+  "include": [
+    "framework/core/nui/**/*",
+    "framework/modules/*/nui/**/*",
+    "packages/nui/**/*",
+    "packages/types/**/*"
+  ],
+  "exclude": [
+    "**/*.server.ts",
+    "**/*.client.ts",
+    "**/server/**",
+    "**/client/**",
+    "node_modules",
+    "tools/**"
+  ]
+}

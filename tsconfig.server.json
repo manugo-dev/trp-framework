@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "types": ["@citizenfx/server", "@types/node"]
+  },
+  "include": ["**/server/**/*.ts"],
+  "exclude": ["**/client/**", "**/nui/**", "node_modules"]
+}

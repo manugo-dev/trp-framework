@@ -1,0 +1,5 @@
+featureFlags:
+  playerSessionAudit: true
+
+limits:
+  maxCharactersPerPlayer: 5

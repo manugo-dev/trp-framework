@@ -1,0 +1,8 @@
+{
+  "name": "rpjs-bridge",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "keyv": "^5.5.0"
+  }
+}

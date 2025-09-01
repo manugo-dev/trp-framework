@@ -1,0 +1,41 @@
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Archivos de build y distribución
+dist/
+build/
+coverage/
+
+# Archivos de configuración del sistema
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Archivos de Git
+.git/
+.gitignore
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Archivos minificados
+*.min.js
+*.min.css
+
+# Archivos de FiveM específicos
+fxmanifest.lua
+
+# Archivos de configuración de ESLint
+.eslintrc.js
+.eslintrc.json
+.eslintrc.yml
+.eslintrc.yaml

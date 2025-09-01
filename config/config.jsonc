@@ -1,0 +1,21 @@
+{
+	"db": {
+		"mysql": {
+			"host": "127.0.0.1",
+			"port": 3306,
+			"database": "trp",
+			"user": "root",
+			"password": "changeme",
+			"poolLimit": 30,
+		}
+	},
+	"logger": {
+		"level": "info",
+		"pretty": true
+	},
+	"modules": {
+		"core": {
+			"tickRate": 100
+		}
+	}
+}

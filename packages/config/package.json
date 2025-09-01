@@ -8,8 +8,11 @@
 		"check": "node -e \"require('./dist/index.js')\""
 	},
 	"dependencies": {
-		"yaml": "^2.5.0",
+		"json5": "^2.2.3",
 		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"@trp/types": "workspace:*"
 	},
 	"license": "MIT"
 }

@@ -31,12 +31,3 @@ yarn.lock
 # Archivos minificados
 *.min.js
 *.min.css
-
-# Archivos de FiveM específicos
-fxmanifest.lua
-
-# Archivos de configuración de ESLint
-.eslintrc.js
-.eslintrc.json
-.eslintrc.yml
-.eslintrc.yaml

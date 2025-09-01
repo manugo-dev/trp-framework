@@ -3,4 +3,4 @@ config.js
 dist/
 
 .env
-secrets.yaml
+secrets.jsonc

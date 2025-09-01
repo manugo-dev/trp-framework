@@ -1,5 +1,5 @@
 {
-	"name": "@trp/core-exports",
+	"name": "@trp/exports",
 	"version": "1.0.0",
 	"main": "dist/index.js"
 }

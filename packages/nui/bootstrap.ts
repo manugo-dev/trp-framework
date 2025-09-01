@@ -16,7 +16,7 @@ export function createNUI(options: BootstrapOptions): App {
 	app.use(createPinia());
 
 	// Add custom plugins
-	plugins.forEach(plugin => plugin(app));
+	plugins.forEach((plugin) => plugin(app));
 
 	app.mount(rootElementId);
 

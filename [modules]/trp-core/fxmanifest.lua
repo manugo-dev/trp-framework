@@ -14,7 +14,6 @@ shared_script {
 }
 
 client_script {
-    "config/database.js",
     "dist/client/**/*.js"
 }
 

@@ -9,6 +9,7 @@
 		"baseUrl": ".",
 		"paths": {
 			"@trp/*": ["./packages/*/src"],
+			"@trp/types": ["./packages/types"],
 			"@trp/nui": ["./packages/nui"],
 			"@trp/nui/*": ["./packages/nui/*"]
 		}

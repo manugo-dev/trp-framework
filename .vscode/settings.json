@@ -3,7 +3,10 @@
   "explorer.fileNesting.patterns": {
     "tsconfig.json": "tsconfig.json,tsconfig.*.json",
     "package.json": "pnpm-lock.yaml,pnpm-workspace.yaml",
-    ".prettierrc": ".prettierrc,.prettierignore",
+    ".prettierrc.mjs": ".prettierrc.mjs,.prettierignore",
     "eslint.config.ts": "eslint.config.ts,.eslintignore",
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
   }
 }

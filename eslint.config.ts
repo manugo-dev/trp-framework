@@ -3,8 +3,10 @@ import {
 	defineConfigWithVueTs,
 	vueTsConfigs,
 } from "@vue/eslint-config-typescript";
+import eslintPluginJsonc from "eslint-plugin-jsonc";
 import pluginVue from "eslint-plugin-vue";
 import { standardTypeChecked } from "@vue/eslint-config-standard-with-typescript";
+
 import tseslint from "typescript-eslint";
 import js from "@eslint/js";
 import globals from "globals";
@@ -37,5 +39,11 @@ export default defineConfig([
 			js,
 		},
 		extends: ["js/recommended"],
+	},
+	{
+		files: ["**/*.{jsonc}"],
+		...eslintPluginJsonc.configs["flat/base"],
+		...eslintPluginJsonc.configs["flat/recommended-with-jsonc"],
+		...eslintPluginJsonc.configs["flat/prettier"],
 	},
 ]);

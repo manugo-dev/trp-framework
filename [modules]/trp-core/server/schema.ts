@@ -11,7 +11,7 @@ export const players = mysqlTable(
 		name: varchar("name", { length: 64 }),
 		isBanned: boolean("is_banned").notNull().default(false),
 	},
-	t => ({
+	(t) => ({
 		idxLastSeen: index("i_players_last_seen").on(t.lastSeen),
 		uName: uniqueIndex("u_players_name").on(t.name),
 	}),

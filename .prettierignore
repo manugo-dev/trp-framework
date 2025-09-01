@@ -32,10 +32,4 @@ yarn.lock
 *.min.js
 *.min.css
 
-# Archivos de FiveM específicos
-fxmanifest.lua
-
-# Archivos de configuración
-.prettierrc
-.prettierignore
-eslint.config.js
+*.jsonc
